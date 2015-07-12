@@ -15,15 +15,15 @@
 	overflow: auto;	
 }
 @font-face {
-    font-family: "AvenirNext-Regular";
+    font-family: 'AvenirNext-Regular';
     src:url('./../fonts/AvenirNextLTPro-Regular.otf');
 }
 @font-face {
-    font-family: "AvenirNext-Medium";
+    font-family: 'AvenirNext-Medium';
     src:url('./../fonts/AvenirNextLTPro-MediumCn.otf');
 }
 @font-face {
-    font-family: "AvenirNext-DemiBold";
+    font-family: 'AvenirNext-DemiBold';
     src:url('./../fonts/AvenirNextLTPro-Demi.otf');
 }
 .score-side #challenge{
@@ -33,7 +33,7 @@
 .score-side #challenge p{
 	color: #fff;
 	font-size: 32px;
-	font-family: AvenirNext-Medium;
+	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
 	padding-top: 25px;
 }
@@ -44,7 +44,7 @@
 	color: #546A67;
 	border: 1px solid #efefef;
 	font-size: 24px;
-	font-family: AvenirNext-Medium;
+	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
 	padding: 30px 0px 10px;
 	margin: 0px;
@@ -53,26 +53,26 @@
 	border:2px solid #efefef;
 	display: inline-block;
 	border-radius: 5px;
-	font-family: AvenirNext-Regular;
+	font-family: 'AvenirNext-Regular';
 	text-transform: uppercase;
 	margin: 30px 0px 30px;
 }
 .game-number p{
-	font-family: AvenirNext-Regular;
+	font-family: 'AvenirNext-Regular';
 	text-transform: uppercase;
 	margin: 3px 10px 2px;
 	color:#808080;
 }
 .score-side .score p{
 	font-size: 100px;
-	font-family: AvenirNext-Medium;
+	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
 	line-height: 0.7;
 	margin-bottom: 0px;
 }
 .score-side .time p{
 	font-size: 80px;
-	font-family: AvenirNext-DemiBold;
+	font-family: 'AvenirNext-DemiBold';
 	color:#8DAFB8;
 	text-transform: uppercase;
 	line-height: 0.7;
@@ -82,14 +82,14 @@
 }
 .score-side .score-stands p{
 	font-size: 20px;
-	font-family: AvenirNext-Medium;
+	font-family: 'AvenirNext-Medium';
 	color:#546A67;
 	padding: 30px 0px;
 	margin-bottom: 0px;
 }
 .score-side .red-cube p{
 	font-size: 25px;
-	font-family: AvenirNext-Medium;
+	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
 	margin-bottom: 0px;
 	line-height: 0.7;
@@ -97,13 +97,11 @@
 }
 .score-side .two-points p{
 	font-size: 15px;
-	font-family: AvenirNext-Medium;
+	font-family: 'AvenirNext-Medium';
 	padding-bottom:30px;
 	margin-bottom: 0px;
 	line-height: 0.7;
 }
-
-
 .activity-side #teams{
 	height: 100px;
 	position: fixed;
@@ -112,13 +110,47 @@
 .activity-side #teams p{
 	color: #80AF65;
 	font-size: 24px;
-	font-family: AvenirNext-Medium;
+	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
 	padding-top: 25px;
 }
-.activity-side .table{
+.activity-side .caption .table{
 	margin-top: 100px;
 }
-
+.activity-side .table-condensed{
+	margin: 5px 0px 25px;
+}
+.activity-side .table-condensed th{
+	padding: 20px 25px 8px;
+	font-size: 20px;
+	color: #999;
+	font-family: 'AvenirNext-Medium'; 
+}
+.activity-side .table-condensed td{
+	padding: 13px 20px;
+	font-size: 24px;
+	color: #546A67;
+	font-family: 'AvenirNext-Regular'; 
+}    
+.activity-side .letter-B{
+	background-color: #33AADD; 
+}
+.activity-side .letter-A{
+	background-color: #80AF65;
+}
+.activity-side .letter-D{
+	background-color: #FFCC55;
+}
+.activity-side .letter-C{
+	background-color: rgb(241, 106, 99);
+}
+.activity-side .letter-cube{
+	color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+}
 
 
