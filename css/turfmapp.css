@@ -114,11 +114,11 @@
 	text-transform: uppercase;
 	padding-top: 25px;
 }
-.activity-side .caption .table{
+.activity-side .table{
 	margin-top: 100px;
 }
 .activity-side .table-condensed{
-	margin: 5px 0px 25px;
+	margin-bottom: 20px;
 }
 .activity-side .table-condensed th{
 	padding: 20px 25px 8px;
@@ -144,7 +144,7 @@
 .activity-side .letter-C{
 	background-color: rgb(241, 106, 99);
 }
-.activity-side .letter-cube{
+.activity-side .letter{
 	color: white;
 	width: 40px;
 	height: 40px;
