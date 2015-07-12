@@ -1,0 +1,124 @@
+
+.score-side{
+	padding: 0px;
+	position: fixed;
+	height: 100vh;
+	overflow: auto;
+	float: left;
+	width: 50%;
+}
+.activity-side{
+	padding: 0px;
+	float:right;
+	width: 50%;
+	height: 100vh;
+	overflow: auto;	
+}
+@font-face {
+    font-family: "AvenirNext-Regular";
+    src:url('./../fonts/AvenirNextLTPro-Regular.otf');
+}
+@font-face {
+    font-family: "AvenirNext-Medium";
+    src:url('./../fonts/AvenirNextLTPro-MediumCn.otf');
+}
+@font-face {
+    font-family: "AvenirNext-DemiBold";
+    src:url('./../fonts/AvenirNextLTPro-Demi.otf');
+}
+.score-side #challenge{
+	height: 100px;
+	background: #364442;
+}
+.score-side #challenge p{
+	color: #fff;
+	font-size: 32px;
+	font-family: AvenirNext-Medium;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+.caption{
+	background: #fafafa;	
+}
+.caption p{
+	color: #546A67;
+	border: 1px solid #efefef;
+	font-size: 24px;
+	font-family: AvenirNext-Medium;
+	text-transform: uppercase;
+	padding: 30px 0px 10px;
+	margin: 0px;
+}
+.game-number{
+	border:2px solid #efefef;
+	display: inline-block;
+	border-radius: 5px;
+	font-family: AvenirNext-Regular;
+	text-transform: uppercase;
+	margin: 30px 0px 30px;
+}
+.game-number p{
+	font-family: AvenirNext-Regular;
+	text-transform: uppercase;
+	margin: 3px 10px 2px;
+	color:#808080;
+}
+.score-side .score p{
+	font-size: 100px;
+	font-family: AvenirNext-Medium;
+	text-transform: uppercase;
+	line-height: 0.7;
+	margin-bottom: 0px;
+}
+.score-side .time p{
+	font-size: 80px;
+	font-family: AvenirNext-DemiBold;
+	color:#8DAFB8;
+	text-transform: uppercase;
+	line-height: 0.7;
+	padding: 30px 0px;
+	margin-bottom: 0px;
+
+}
+.score-side .score-stands p{
+	font-size: 20px;
+	font-family: AvenirNext-Medium;
+	color:#546A67;
+	padding: 30px 0px;
+	margin-bottom: 0px;
+}
+.score-side .red-cube p{
+	font-size: 25px;
+	font-family: AvenirNext-Medium;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	line-height: 0.7;
+	padding-bottom:30px;
+}
+.score-side .two-points p{
+	font-size: 15px;
+	font-family: AvenirNext-Medium;
+	padding-bottom:30px;
+	margin-bottom: 0px;
+	line-height: 0.7;
+}
+
+
+.activity-side #teams{
+	height: 100px;
+	position: fixed;
+	z-index: 10;
+}
+.activity-side #teams p{
+	color: #80AF65;
+	font-size: 24px;
+	font-family: AvenirNext-Medium;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+.activity-side .table{
+	margin-top: 100px;
+}
+
+
+
