@@ -115,6 +115,7 @@
 }
 .activity-side .table{
 	margin-top: 100px;
+	margin-bottom: 0px;
 }
 .activity-side .table-condensed{
 	margin-bottom: 20px;
@@ -127,11 +128,19 @@
 	font-family: 'AvenirNext-Medium'; 
 }
 .activity-side .table-condensed td{
-	padding: 10px 15px;
-	font-size: 24px;
-	color: #546A67;
-	font-family: 'AvenirNext-Regular'; 
+	padding: 5px 10px;
+	color: #546A67; 
 }    
+.activity-side .letter{
+	color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'AvenirNext-Regular';
+}
 .activity-side .letter-B{
 	background-color: #33AADD; 
 }
@@ -144,15 +153,7 @@
 .activity-side .letter-C{
 	background-color: rgb(241, 106, 99);
 }
-.activity-side .letter{
-	color: white;
-	width: 40px;
-	height: 40px;
-	border-radius: 5px;
-	display: inline-block;
-	text-align: center;
-}
-.activity-side .details{
-	display: inline-block;
+.activity-side .details p{
+	display: inline-block;	
 }
 
