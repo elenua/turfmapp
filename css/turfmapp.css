@@ -105,7 +105,6 @@
 .activity-side #teams{
 	height: 100px;
 	position: fixed;
-	z-index: 10;
 }
 .activity-side #teams p{
 	color: #80AF65;
@@ -119,6 +118,7 @@
 }
 .activity-side .table-condensed{
 	margin-bottom: 20px;
+	display: inline-block;
 }
 .activity-side .table-condensed th{
 	padding: 20px 25px 8px;
@@ -127,7 +127,7 @@
 	font-family: 'AvenirNext-Medium'; 
 }
 .activity-side .table-condensed td{
-	padding: 13px 20px;
+	padding: 10px 15px;
 	font-size: 24px;
 	color: #546A67;
 	font-family: 'AvenirNext-Regular'; 
@@ -152,5 +152,7 @@
 	display: inline-block;
 	text-align: center;
 }
-
+.activity-side .details{
+	display: inline-block;
+}
 
