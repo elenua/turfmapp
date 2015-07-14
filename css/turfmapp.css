@@ -6,6 +6,7 @@
 	overflow: auto;
 	float: left;
 	width: 50%;
+	background-color: #fafafa;
 }
 .activity-side{
 	padding: 0px;
@@ -13,6 +14,10 @@
 	width: 50%;
 	height: 100vh;
 	overflow: auto;	
+}
+.white-box{
+	background-color: white;
+	border: 1px solid #efefef;
 }
 @font-face {
     font-family: 'AvenirNext-Regular';
@@ -42,7 +47,6 @@
 }
 .caption p{
 	color: #546A67;
-	border: 1px solid #efefef;
 	font-size: 24px;
 	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
@@ -50,9 +54,9 @@
 	margin: 0px;
 }
 .game-number{
-	border:2px solid #efefef;
+	border: 3px solid #efefef;
 	display: inline-block;
-	border-radius: 5px;
+	border-radius: 8px;
 	font-family: 'AvenirNext-Regular';
 	text-transform: uppercase;
 	margin: 30px 0px 30px;
@@ -62,18 +66,30 @@
 	text-transform: uppercase;
 	margin: 3px 10px 2px;
 	color:#808080;
+	font-size: 24px;
+}
+.score-side .big-letter{
+	color: white;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	display: inline-block;
+	font-size: 60px;
+	font-family: 'AvenirNext-Regular';
+	padding-top: 6px;
 }
 .score-side .score p{
 	font-size: 100px;
 	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
-	line-height: 0.7;
+	line-height: 1;
 	margin-bottom: 0px;
+	display: inline-block;
 }
 .score-side .time p{
 	font-size: 80px;
 	font-family: 'AvenirNext-DemiBold';
-	color:#8DAFB8;
+	color:#8dafb8;
 	text-transform: uppercase;
 	line-height: 0.7;
 	padding: 30px 0px;
@@ -83,23 +99,21 @@
 .score-side .score-stands p{
 	font-size: 20px;
 	font-family: 'AvenirNext-Medium';
-	color:#546A67;
+	color:#546a67;
 	padding: 30px 0px;
 	margin-bottom: 0px;
 }
-.score-side .red-cube p{
-	font-size: 25px;
+.word p{
+	font-size: 24px;
 	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
-	margin-bottom: 0px;
-	line-height: 0.7;
-	padding-bottom:30px;
+	display: inline-block;
+	color: #546a67;
 }
 .score-side .two-points p{
 	font-size: 15px;
 	font-family: 'AvenirNext-Medium';
-	padding-bottom:30px;
-	margin-bottom: 0px;
+	padding:30px 30px;
 	line-height: 0.7;
 }
 .activity-side #teams{
@@ -107,7 +121,7 @@
 	position: fixed;
 }
 .activity-side #teams p{
-	color: #80AF65;
+	color: #80af65;
 	font-size: 24px;
 	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
@@ -128,10 +142,10 @@
 	font-family: 'AvenirNext-Medium'; 
 }
 .activity-side .table-condensed td{
-	padding: 5px 10px;
-	color: #546A67; 
+	padding: 4px 8px;
+	color: #546a67; 
 }    
-.activity-side .letter{
+.letter{
 	color: white;
 	width: 40px;
 	height: 40px;
@@ -140,20 +154,41 @@
 	text-align: center;
 	font-size: 24px;
 	font-family: 'AvenirNext-Regular';
+	padding: 3px 2px 0px;
+	margin: 0px 15px;
 }
-.activity-side .letter-B{
-	background-color: #33AADD; 
+.letter-B{
+	background-color: #33aadd; 
 }
-.activity-side .letter-A{
-	background-color: #80AF65;
+.letter-A{
+	background-color: #80af65;
 }
-.activity-side .letter-D{
-	background-color: #FFCC55;
+.letter-D{
+	background-color: #ffcc55;
 }
-.activity-side .letter-C{
+.letter-C{
 	background-color: rgb(241, 106, 99);
 }
-.activity-side .details p{
-	display: inline-block;	
+.activity-side .details .game-number{
+	margin: 37px 0px 30px;
 }
-
+.activity-side .details p{
+	display: inline-block;
+}
+.activity-side .details .edging{
+	margin: 30px 0px 30px;
+}
+.activity-side .details hr{
+	margin: 0px;
+}	
+.activity-side .details .time{
+	margin-top: 35px;
+	font-size: 22px;
+	color: #cccccc;
+	font-family: 'AvenirNext-Regular';
+}
+.activity-side .details .edging p{		
+	font-size: 36px;
+	font-family: 'AvenirNext-Medium';
+	color: #546a67;
+}	
