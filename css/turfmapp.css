@@ -1,4 +1,29 @@
+span{
+	vertical-align: middle;
+}
 
+.green{
+	color: green;
+}
+.navbar-color{
+	height: 65px;
+	background-color: #80af65;
+}
+.navbar .right-padding{
+	float: right;
+	margin-right: 15px;
+}
+#content-top{
+	padding-top: 6px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+}
 .score-side{
 	padding: 0px;
 	position: fixed;
@@ -15,6 +40,7 @@
 	height: 100vh;
 	overflow: auto;	
 }
+
 .white-box{
 	background-color: white;
 	border: 1px solid #efefef;
@@ -32,6 +58,7 @@
     src:url('./../fonts/AvenirNextLTPro-Demi.otf');
 }
 .score-side #challenge{
+	margin-top: 65px;
 	height: 100px;
 	background: #364442;
 }
@@ -43,7 +70,9 @@
 	padding-top: 25px;
 }
 .caption{
-	background: #fafafa;	
+	background: #fafafa;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;	
 }
 .caption p{
 	color: #546A67;
@@ -61,12 +90,16 @@
 	text-transform: uppercase;
 	margin: 30px 0px 30px;
 }
-.game-number p{
+.game-number span, .game-number p{
 	font-family: 'AvenirNext-Regular';
 	text-transform: uppercase;
-	margin: 3px 10px 2px;
+	margin: 0px 10px 0px;
 	color:#808080;
 	font-size: 24px;
+}
+.score-side .score{
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .score-side .big-letter{
 	color: white;
@@ -78,13 +111,13 @@
 	font-family: 'AvenirNext-Regular';
 	padding-top: 6px;
 }
-.score-side .score p{
+.score-side .score span.number{
 	font-size: 100px;
-	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
 	line-height: 1;
 	margin-bottom: 0px;
 	display: inline-block;
+	color: #546a67;
 }
 .score-side .time p{
 	font-size: 80px;
@@ -110,25 +143,55 @@
 	display: inline-block;
 	color: #546a67;
 }
-.score-side .two-points p{
+.score-side .bullet span{
 	font-size: 15px;
 	font-family: 'AvenirNext-Medium';
-	padding:30px 30px;
+	padding:30px 2px 30px;
 	line-height: 0.7;
+	display: inline-block;
 }
-.activity-side #teams{
+.score-side #bullet-1{
+	font-size: 35px;
+	color: #b5b5b5;
+}
+.score-side #bullet-2{
+	font-size: 35px;
+	color: #e4e4e4;
+}
+
+.activity-side .heading-teams{
 	height: 100px;
+	width: 50%;
 	position: fixed;
+	font-family: 'AvenirNext-Medium';
+	text-transform: uppercase;
+	margin-top: 65px;
+	z-index: 10;
 }
-.activity-side #teams p{
+.activity-side .green-table{
+	display: inline-block;
+	margin-right: 60px;
+}
+.activity-side .teams{
+	display: inline-block;
+	margin-left: 60px;	
+}
+.activity-side .green-table p{
 	color: #80af65;
 	font-size: 24px;
 	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
 	padding-top: 25px;
 }
+.teams p{
+	color: #546A67;
+	font-size: 24px;
+	font-family: 'AvenirNext-Medium';
+	text-transform: uppercase;
+	padding-top: 25px;
+}	
 .activity-side .table{
-	margin-top: 100px;
+	margin-top: 165px;
 	margin-bottom: 0px;
 }
 .activity-side .table-condensed{
@@ -142,9 +205,17 @@
 	font-family: 'AvenirNext-Medium'; 
 }
 .activity-side .table-condensed td{
-	padding: 4px 8px;
-	color: #546a67; 
-}    
+	padding: 10px;
+	color: #546a67;
+	font-size: 24px; 
+	font-family: 'AvenirNext-Regular';
+} 
+.activity-side .table-condensed .last-column{
+	color: #80af65;
+	font-size: 26px;
+	font-family: 'AvenirNext-DemiBold';
+
+}
 .letter{
 	color: white;
 	width: 40px;
@@ -169,26 +240,50 @@
 .letter-C{
 	background-color: rgb(241, 106, 99);
 }
-.activity-side .details .game-number{
-	margin: 37px 0px 30px;
-}
-.activity-side .details p{
-	display: inline-block;
-}
-.activity-side .details .edging{
-	margin: 30px 0px 30px;
-}
 .activity-side .details hr{
 	margin: 0px;
 }	
 .activity-side .details .time{
-	margin-top: 35px;
 	font-size: 22px;
 	color: #cccccc;
 	font-family: 'AvenirNext-Regular';
 }
-.activity-side .details .edging p{		
+.activity-side .details .live{
+	font-size: 26px;
+	color: #f16a63;
+	text-transform: uppercase;
+}
+.activity-side .details .full-time{
+	font-size: 20px;
+	color: #546a67;
+	text-transform: uppercase;
+}
+.activity-side .details .score{		
 	font-size: 36px;
 	font-family: 'AvenirNext-Medium';
 	color: #546a67;
+}
+.activity-side span.name{		
+	font-size: 26px;
+	font-family: 'AvenirNext-Medium';
+	color: #80af65;
 }	
+.activity-side span.added{		
+	font-size: 26px;
+	font-family: 'AvenirNext-Medium';
+	color: #b5b5b5;
+}	
+.activity-side hr.short-line{		
+	width: 90%;
+	display: inline-block;
+	text-align: center;
+}	
+.activity-side .details .row-score{		
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 100px;
+	display: flex;
+}	
+.activity-side .details .row-score >div{
+	margin: auto;
+}
