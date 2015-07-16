@@ -1,7 +1,6 @@
 span{
 	vertical-align: middle;
 }
-
 .green{
 	color: green;
 }
@@ -20,7 +19,6 @@ span{
 	color: white;
 	font-size: 20px;
 }
-
 .navbar-default .navbar-nav>li>a:hover{
 	color: white;
 }
@@ -40,7 +38,6 @@ span{
 	height: 100vh;
 	overflow: auto;	
 }
-
 .white-box{
 	background-color: white;
 	border: 1px solid #efefef;
@@ -111,7 +108,7 @@ span{
 	font-family: 'AvenirNext-Regular';
 	padding-top: 6px;
 }
-.score-side .score span.number{
+.score-side .score p.number{
 	font-size: 100px;
 	text-transform: uppercase;
 	line-height: 1;
@@ -158,7 +155,6 @@ span{
 	font-size: 35px;
 	color: #e4e4e4;
 }
-
 .activity-side .heading-teams{
 	height: 100px;
 	width: 50%;
@@ -214,7 +210,6 @@ span{
 	color: #80af65;
 	font-size: 26px;
 	font-family: 'AvenirNext-DemiBold';
-
 }
 .letter{
 	color: white;
@@ -222,7 +217,6 @@ span{
 	height: 40px;
 	border-radius: 5px;
 	display: inline-block;
-	text-align: center;
 	font-size: 24px;
 	font-family: 'AvenirNext-Regular';
 	padding: 3px 2px 0px;
@@ -287,3 +281,42 @@ span{
 .activity-side .details .row-score >div{
 	margin: auto;
 }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: @screen-xs-max) {
+	.activity-side{
+	width: 100%;	
+	} 
+ }
+ @media screen and (max-width: 768px) {
+ 	.score-side{
+	width: 100%;
+	position: relative; 
+	float: none;
+	height: auto;	
+	} 
+ 	.activity-side{	
+	width: 100%;
+	position: relative;
+	float: none;	
+	height: auto;
+	} 
+	.activity-side .heading-teams{
+	height: 100px;
+	width: 100%;
+	position: relative;
+	}
+	.activity-side .table{
+	margin-top: 0px;
+	}
+ }	
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
