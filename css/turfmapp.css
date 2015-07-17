@@ -79,20 +79,16 @@ span{
 	padding: 30px 0px 10px;
 	margin: 0px;
 }
-.game-number{
-	border: 3px solid #efefef;
+	.game-number{
 	display: inline-block;
-	border-radius: 8px;
-	font-family: 'AvenirNext-Regular';
-	text-transform: uppercase;
-	margin: 30px 0px 30px;
-}
-.game-number span, .game-number p{
+	border-radius: 8px; 	
+	border: 2px solid #efefef; 	
 	font-family: 'AvenirNext-Regular';
 	text-transform: uppercase;
 	margin: 0px 10px 0px;
 	color:#808080;
 	font-size: 24px;
+	padding: 5px 10px 5px;
 }
 .score-side .score{
 	margin-left: 0px;
@@ -116,7 +112,7 @@ span{
 	display: inline-block;
 	color: #546a67;
 }
-.score-side .time p{
+.score-side .time-meters p{
 	font-size: 80px;
 	font-family: 'AvenirNext-DemiBold';
 	color:#8dafb8;
@@ -237,7 +233,7 @@ span{
 .activity-side .details hr{
 	margin: 0px;
 }	
-.activity-side .details .time{
+.activity-side .details .time-meters{
 	font-size: 22px;
 	color: #cccccc;
 	font-family: 'AvenirNext-Regular';
@@ -266,30 +262,32 @@ span{
 	font-size: 26px;
 	font-family: 'AvenirNext-Medium';
 	color: #b5b5b5;
-}	
-.activity-side hr.short-line{		
-	width: 90%;
-	display: inline-block;
-	text-align: center;
-}	
+}
+.activity-side .details{
+	display: table;
+	width: 100%;
+}
 .activity-side .details .row-score{		
-	margin-left: 0px;
-	margin-right: 0px;
-	height: 100px;
-	display: flex;
-}	
-.activity-side .details .row-score >div{
-	margin: auto;
+	height: 135px;
+	display: table-row;  
+}
+.activity-side .details .row-score .right-col{		
+	display: table-cell;
+	vertical-align: middle;
+}
+.activity-side .details .row-score .middle-col{		
+	display: table-cell;
+	vertical-align: middle;
+}
+.activity-side .details .row-score .left-col{		
+	display: table-cell;
+	vertical-align: middle;
 }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-@media (max-width: @screen-xs-max) {
-	.activity-side{
-	width: 100%;	
-	} 
- }
- @media screen and (max-width: 768px) {
+
+/* Small devices (phones, less than 820px) */
+
+ @media screen and (max-width: 820px) {
  	.score-side{
 	width: 100%;
 	position: relative; 
@@ -310,7 +308,11 @@ span{
 	.activity-side .table{
 	margin-top: 0px;
 	}
+	.activity-side .details .row-score{		
+	height: 135px;
+	}	
  }	
+
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { ... }
