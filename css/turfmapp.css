@@ -79,7 +79,11 @@ span{
 	padding: 30px 0px 10px;
 	margin: 0px;
 }
-	.game-number{
+.game{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.game-number{
 	display: inline-block;
 	border-radius: 8px; 	
 	border: 2px solid #efefef; 	
@@ -91,8 +95,8 @@ span{
 	padding: 5px 10px 5px;
 }
 .score-side .score{
-	margin-left: 0px;
-	margin-right: 0px;
+	display: flex;
+	justify-content: space-around;
 }
 .score-side .big-letter{
 	color: white;
@@ -104,11 +108,10 @@ span{
 	font-family: 'AvenirNext-Regular';
 	padding-top: 6px;
 }
-.score-side .score p.number{
+.score-side .score .number{
 	font-size: 100px;
 	text-transform: uppercase;
 	line-height: 1;
-	margin-bottom: 0px;
 	display: inline-block;
 	color: #546a67;
 }
@@ -229,9 +232,6 @@ span{
 }
 .letter-C{
 	background-color: rgb(241, 106, 99);
-}
-.activity-side .details hr{
-	margin: 0px;
 }	
 .activity-side .details .time-meters{
 	font-size: 22px;
@@ -287,7 +287,7 @@ span{
 
 /* Small devices (phones, less than 820px) */
 
- @media screen and (max-width: 820px) {
+ @media screen and (max-width: 768px) {
  	.score-side{
 	width: 100%;
 	position: relative; 
@@ -312,6 +312,15 @@ span{
 	height: 135px;
 	}	
  }	
+ @media screen and (min-width: 768px) and (max-width: 840px) {
+ 	.score-side .score .number{
+	font-size: 100px;
+	text-transform: uppercase;
+	line-height: 1;
+	display: inline-block;
+	color: #546a67;
+	}
+ }
 
 
 /* Small devices (tablets, 768px and up) */
