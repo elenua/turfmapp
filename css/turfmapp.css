@@ -253,12 +253,12 @@ span{
 	font-family: 'AvenirNext-Medium';
 	color: #546a67;
 }
-.activity-side span.name{		
+.activity-side .name{		
 	font-size: 26px;
 	font-family: 'AvenirNext-Medium';
 	color: #80af65;
 }	
-.activity-side span.added{		
+.activity-side .added{		
 	font-size: 26px;
 	font-family: 'AvenirNext-Medium';
 	color: #b5b5b5;
