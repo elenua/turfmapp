@@ -286,7 +286,15 @@ span{
 
 
 /* Small devices (phones, less than 820px) */
-
+@media screen and (max-width: 410px) {
+ 	.letter{
+ 		margin-right: 0px;
+ 		margin-left: 0px;
+	}
+	.game-number{
+ 		padding: 0px;
+	}
+ }
  @media screen and (max-width: 768px) {
  	.score-side{
 	width: 100%;
@@ -312,6 +320,7 @@ span{
 	height: 135px;
 	}	
  }	
+
  @media screen and (min-width: 768px) and (max-width: 840px) {
  	.score-side .score .number{
 	font-size: 100px;
