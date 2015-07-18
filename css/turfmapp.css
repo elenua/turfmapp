@@ -97,6 +97,7 @@ span{
 .score-side .score{
 	display: flex;
 	justify-content: space-around;
+	line-height: 91px;
 }
 .score-side .big-letter{
 	color: white;
