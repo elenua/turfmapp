@@ -115,6 +115,9 @@ span{
 	display: inline-block;
 	color: #546a67;
 }
+.score-side .score .number span{
+	margin: 20px;
+}
 .score-side .time-meters p{
 	font-size: 80px;
 	font-family: 'AvenirNext-DemiBold';
@@ -287,13 +290,33 @@ span{
 
 /* Small devices (phones, less than 820px) */
 @media screen and (max-width: 410px) {
- 	.letter{
- 		margin-right: 0px;
- 		margin-left: 0px;
+ 	.score-side .big-letter{
+ 		width: 60px;
 	}
-	.game-number{
- 		padding: 0px;
+	.activity-side .details{
+		display: block;
 	}
+	.activity-side .details .row-score{		
+		display: inline;	
+	}
+	.activity-side .details .row-score >div{		
+		margin: 20px;   
+	}
+	.activity-side .details .row-score .right-col{		
+		display: block;
+	}
+	.activity-side .details .row-score .middle-col{		
+		display: block;
+	}
+	.activity-side .details .row-score .left-col{		
+		display: block;
+		border-bottom: 1px solid #efefef;
+	}
+	.score-side .score .number span{
+		margin: 0px;
+	}
+
+
  }
  @media screen and (max-width: 768px) {
  	.score-side{
@@ -321,22 +344,8 @@ span{
 	}	
  }	
 
- @media screen and (min-width: 768px) and (max-width: 840px) {
- 	.score-side .score .number{
-	font-size: 100px;
-	text-transform: uppercase;
-	line-height: 1;
-	display: inline-block;
-	color: #546a67;
+ @media screen and (min-width: 769px) and (max-width: 840px) {
+ .score-side .score .number span{
+		margin: 5px;
 	}
  }
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
