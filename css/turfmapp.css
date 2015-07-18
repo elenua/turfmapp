@@ -315,10 +315,17 @@ span{
 	.score-side .score .number span{
 		margin: 0px;
 	}
-
-
+	.activity-side .table-condensed td{
+		padding: 2px;
+	}
+	.activity-side .table-condensed .letter{
+		margin:0px 5px;
+	}
+	.activity-side .table-condensed th{
+		padding: 19px 17px 2px;
+	}
  }
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 815px) {
  	.score-side{
 	width: 100%;
 	position: relative; 
@@ -344,7 +351,7 @@ span{
 	}	
  }	
 
- @media screen and (min-width: 769px) and (max-width: 840px) {
+ @media screen and (min-width: 815px) and (max-width: 840px) {
  .score-side .score .number span{
 		margin: 5px;
 	}
