@@ -5,12 +5,18 @@ span{
 	color: green;
 }
 .navbar-color{
-	height: 65px;
+	min-height: 65px;
 	background-color: #80af65;
+}
+.navbar-header{
+	min-height: 65px;
 }
 .navbar .right-padding{
 	float: right;
 	margin-right: 15px;
+}
+.navbar-brand{
+	padding-top: 7px;
 }
 #content-top{
 	padding-top: 6px;
