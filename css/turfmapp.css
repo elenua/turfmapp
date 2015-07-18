@@ -287,11 +287,14 @@ span{
 	vertical-align: middle;
 }
 
-
+@media screen and (max-width: 375px) {
+ 	.score-side .big-letter{
+ 		width: 70px;
+	}
 /* Small devices (phones, less than 820px) */
 @media screen and (max-width: 410px) {
  	.score-side .big-letter{
- 		width: 100px;
+ 		width: 70px;
 	}
 	.activity-side .details{
 		display: block;
