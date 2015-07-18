@@ -112,6 +112,7 @@ span{
 	font-size: 100px;
 	text-transform: uppercase;
 	line-height: 85px;
+	height: 85px;
 	display: inline-block;
 	color: #546a67;
 }
