@@ -101,20 +101,18 @@ span{
 .score-side .big-letter{
 	color: white;
 	width: 100px;
-	height: 100px;
 	border-radius: 10px;
 	display: inline-block;
-	font-size: 60px;
+	font-size: 70px;
 	font-family: 'AvenirNext-Regular';
-	padding-top: 6px;
 }
 .score-side .score .number{
 	font-size: 100px;
 	text-transform: uppercase;
-	line-height: 85px;
-	height: 85px;
+	line-height: 91px;
 	display: inline-block;
 	color: #546a67;
+	vertical-align: middle;
 }
 .score-side .score .number span{
 	margin: 20px;
