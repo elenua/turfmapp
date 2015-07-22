@@ -211,13 +211,13 @@ navbar-brand img{
 	display: inline-block;
 }
 .activity-side .table-condensed th{
-	padding: 20px 25px 8px;
+	padding: 20px 20px 8px;
 	font-size: 20px;
 	color: #999;
 	font-family: 'AvenirNext-Medium'; 
 }
 .activity-side .table-condensed td{
-	padding: 10px;
+	padding: 8px;
 	color: #546a67;
 	font-size: 24px; 
 	font-family: 'AvenirNext-Regular';
@@ -459,11 +459,17 @@ navbar-brand img{
 	.activity-side .table-condensed th{
 		text-align: center;
 		padding: 2px;
+	}
+	.activity-side .table-condensed th{
+		padding: 20px 19px 10px; 
 	}	
  }	
 
  @media screen and (min-width: 815px) and (max-width: 840px) {
  .score-side .score .number span{
 		margin: 5px;
+	}
+	.activity-side .table-condensed th{
+		padding: 20px 20px 10px; 
 	}
  }
