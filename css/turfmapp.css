@@ -26,6 +26,9 @@ navbar-brand img{
 .navbar-default .navbar-nav>li>a:hover{
 	color: white;
 }
+.navbar-toggle{
+	margin-top: 15px;
+}
 .score-side{
 	padding: 0px;
 	position: fixed;
@@ -468,7 +471,7 @@ navbar-brand img{
 		padding: 2px;
 	}
 	.activity-side .table-condensed th{
-		padding: 20px 19px 10px; 
+		padding: 20px 15px 10px; 
 	}	
  }	
 
