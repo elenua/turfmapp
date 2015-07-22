@@ -378,7 +378,6 @@ navbar-brand img{
 		display: inline-block;
 	}
 	.activity-side .details .row-score-expanded .row-score-detail-main{		
-		display: inline-block;
 		height: 130px;
 	}
 
@@ -430,7 +429,12 @@ navbar-brand img{
 	.activity-side .table-condensed .letter{
 		margin:0px 5px;
 	}
-
+	.score-side #challenge img{
+		padding-right: 0px;
+	}
+	.score-side .score .number{
+		line-height: 76px;
+	}
  }
 
  @media screen and (max-width: 815px) {
