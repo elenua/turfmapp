@@ -111,26 +111,30 @@ navbar-brand img{
 .score-side .score{
 	display: flex;
 	justify-content: space-around;
-	line-height: 91px;
+	height: 100px;
 }
 .score-side .big-letter{
 	color: white;
 	width: 100px;
+	height: 100px;
 	border-radius: 10px;
 	display: inline-block;
 	font-size: 70px;
 	font-family: 'AvenirNext-Regular';
+	margin: auto;
 }
 .score-side .score .number{
 	font-size: 100px;
 	text-transform: uppercase;
-	line-height: 91px;
 	display: inline-block;
 	color: #546a67;
-	vertical-align: middle;
+	height: 100px;
+	line-height: 100px;
+	margin: auto;
 }
 .score-side .score .number span{
 	margin: 20px;
+	vertical-align: top;
 }
 .score-side .time-meters p{
 	font-size: 80px;
@@ -432,9 +436,7 @@ navbar-brand img{
 	.score-side #challenge img{
 		padding-right: 0px;
 	}
-	.score-side .score .number{
-		line-height: 76px;
-	}
+
  }
 
  @media screen and (max-width: 815px) {
