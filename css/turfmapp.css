@@ -293,11 +293,13 @@ navbar-brand img{
 }
 
 .activity-side .details .row-score-expanded .row-score-detail-main{		
-	display: table-row;  
+	display: table-row;
+	height: 120px;
 }
 
 .row-score-detail{
 	display: table-row;
+	height: 120px;
 }
 
 .middle-col, .right-col, .left-col {		
@@ -323,20 +325,25 @@ navbar-brand img{
 	display: table-row;
 }
 
-.row-score-detail-divider div{
-	display: table-cell;
-	border-bottom: 1px #efefef solid;
-	width: 80%;
-}
-
 .activity-side .details .row-score-detail .right-col{		
-	border-bottom: none;
+	border-bottom: 0px #efefef solid;
 }
 .activity-side .details .row-score-detail .middle-col{		
-	border-bottom: none;
+	border-bottom: 1px #efefef solid;
 }
 .activity-side .details .row-score-detail .left-col{		
-	border-bottom: none;
+	border-bottom: 0px #efefef solid;
+}
+
+.activity-side .details .row-score-detail-main .middle-col{		
+	border-bottom: 1px #efefef solid;
+}
+
+.activity-side .details .row-score-expanded :last-child .right-col{
+	border-bottom: 1px #efefef solid;
+}
+.activity-side .details .row-score-expanded :last-child .left-col{
+	border-bottom: 1px #efefef solid;
 }
 
 /* Small devices (phones, less than 820px) */
@@ -355,14 +362,57 @@ navbar-brand img{
 	}
 	.activity-side .details .row-score .right-col{		
 		display: block;
+		border: none;
 	}
 	.activity-side .details .row-score .middle-col{		
 		display: block;
+		border: none;
 	}
 	.activity-side .details .row-score .left-col{		
 		display: block;
-		border-bottom: 1px solid #efefef;
 	}
+
+	.activity-side .details .row-score-expanded{
+		display: inline-block;
+	}
+	.activity-side .details .row-score-expanded .row-score-detail-main{		
+		display: inline-block;	
+	}
+	.activity-side .details .row-score-detail-main >div{		
+		margin: 10px;   
+	}
+	.activity-side .details .row-score-detail-main .right-col{		
+		display: block;
+	}
+	.activity-side .details .row-score-detail-main .middle-col{		
+		display: block;
+		border: none;
+	}
+	.activity-side .details .row-score-detail-main .left-col{		
+		display: block;
+		border-bottom: 1px #efefef solid;
+	}	
+	.activity-side .details .row-score-detail .left-col{		
+		display: block;
+		border-bottom: 1px #efefef solid;
+	}
+
+	.activity-side .details .row-score-detail >div{		
+		margin: 10px;   
+	}
+	.activity-side .details .row-score-detail .right-col{		
+		display: block;
+		margin: 10px; 
+	}
+	.activity-side .details .row-score-detail .middle-col{		
+		display: block;
+		border: none;
+	}
+	.activity-side .details .row-score-detail .left-col{		
+		display: block;
+		border-bottom: 1px #efefef solid;
+	}
+
 	.score-side .score .number span{
 		margin: 0px;
 	}
