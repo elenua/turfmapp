@@ -111,7 +111,7 @@ navbar-brand img{
 .score-side .score{
 	display: flex;
 	justify-content: space-around;
-	height: 100px;
+	height: 140px;
 }
 .score-side .big-letter{
 	color: white;
@@ -128,9 +128,8 @@ navbar-brand img{
 	text-transform: uppercase;
 	display: inline-block;
 	color: #546a67;
-	height: 100px;
-	line-height: 100px;
 	margin: auto;
+	vertical-align: middle;
 }
 .score-side .score .number span{
 	margin: 20px;
