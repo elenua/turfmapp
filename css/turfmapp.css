@@ -352,7 +352,6 @@ navbar-brand img{
 
  	.score-side .big-letter{
  		width: 70px;
- 		line-height: 80px;
 	}
 	.activity-side .details{
 		display: block;
@@ -436,7 +435,6 @@ navbar-brand img{
 	.score-side .score .number{
 		line-height: 76px;
 	}
-	
  }
 
  @media screen and (max-width: 815px) {
