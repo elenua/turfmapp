@@ -5,25 +5,23 @@ span{
 	color: green;
 }
 .navbar-color{
-	min-height: 65px;
 	background-color: #80af65;
+	border-bottom-width: 0px;
 }
 .navbar-header{
 	min-height: 65px;
 }
 .navbar .right-padding{
 	float: right;
-	margin-right: 15px;
-}
-.navbar-brand{
-	padding-top: 7px;
-}
-#content-top{
-	padding-top: 6px;
+	margin-top: 7px; 
 }
 .navbar-default .navbar-nav>li>a{
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
+}
+navbar-brand img{
+	height: 55px;
+	width: 55px;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: white;
@@ -65,12 +63,21 @@ span{
 	height: 100px;
 	background: #364442;
 }
+.score-side #challenge img{
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-right: 15px;
+}
+.score-side #challenge img .question{
+	padding-left: 50px;
+}
 .score-side #challenge p{
 	color: #fff;
 	font-size: 32px;
 	font-family: 'AvenirNext-Medium';
 	text-transform: uppercase;
-	padding-top: 25px;
+	display: inline-block;
+	padding-top: 28px;
 }
 .caption{
 	background: #fafafa;
@@ -281,23 +288,56 @@ span{
 	display: table;
 	width: 100%;
 }
+.activity-side .details .row-score-expanded{		
+	display: table-row-group;  
+}
+
+.activity-side .details .row-score-expanded .row-score-detail-main{		
+	display: table-row;  
+}
+
+.row-score-detail{
+	display: table-row;
+}
+
+.middle-col, .right-col, .left-col {		
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .activity-side .details .row-score{		
 	height: 135px;
 	display: table-row;  
 }
 .activity-side .details .row-score .right-col{		
-	display: table-cell;
-	vertical-align: middle;
+	border-bottom: 1px #efefef solid;
 }
 .activity-side .details .row-score .middle-col{		
-	display: table-cell;
-	vertical-align: middle;
+	border-bottom: 1px #efefef solid;
 }
 .activity-side .details .row-score .left-col{		
-	display: table-cell;
-	vertical-align: middle;
+	border-bottom: 1px #efefef solid;
 }
 
+.row-score-detail-divider{
+	display: table-row;
+}
+
+.row-score-detail-divider div{
+	display: table-cell;
+	border-bottom: 1px #efefef solid;
+	width: 80%;
+}
+
+.activity-side .details .row-score-detail .right-col{		
+	border-bottom: none;
+}
+.activity-side .details .row-score-detail .middle-col{		
+	border-bottom: none;
+}
+.activity-side .details .row-score-detail .left-col{		
+	border-bottom: none;
+}
 
 /* Small devices (phones, less than 820px) */
 @media screen and (max-width: 410px) {

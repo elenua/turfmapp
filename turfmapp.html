@@ -8,9 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="./css/turfmapp.css">
 </head>
 <body>
+
 <div>
  	<nav class="navbar navbar-default navbar-color navbar-fixed-top">
- 	<div class="content-top">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -18,125 +18,129 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="http://placehold.it/40x40"></a>
+          <a class="navbar-brand" href="#"><img src="./img/logo2.png"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           	<ul class="nav navbar-nav right-padding">
           		<li><a href="#">First Last</a></li>
           	</ul>
         </div><!--/.nav-collapse -->
-        </div>
     </nav>
-   </div> 
+</div> 
 
-	<div class="text-center score-side">
-		<div id="challenge">
-			<p>Mini challenge</p>
+<div class="text-center score-side">
+	<div id="challenge">
+		<img src="./img/field.png">
+		<p>Mini challenge</p>
+		<img class="question" src="./img/question.png">
+	</div>
+	<div class="caption">
+		<p>Current game</p>
+	</div>
+	<div class="white-box">	
+		<div class="game">
+			<span class="game-number">Game 23</span>
 		</div>
-		<div class="caption">
-			<p>Current game</p>
+
+		<div class="score">
+				<span class="big-letter letter-A">A</span>
+				<div class="number"><span>0</span>-<span>0</span></div>	
+				<span class="big-letter letter-B">B</span>
 		</div>
-		<div class="white-box">	
-			<div class="game">
-				<span class="game-number">Game 23</span>
-			</div>
-
-			<div class="score">
-					<span class="big-letter letter-A">A</span>
-					<div class="number"><span>0</span>-<span>0</span></div>	
-					<span class="big-letter letter-B">B</span>
-			</div>
-			<div class="time-meters">
-				<p>7:00</p>
-			</div>
-		</div>	
-		<div class="caption">
-			<p>Next game</p>
+		<div class="time-meters">
+			<p>7:00</p>
 		</div>
-		<div class="white-box">	
-			<div class="score-stands">
-				<p>If score stands:</p>
-			</div>
-
-			<div class="word">	
-				<span class="letter letter-C">C</span>
-				<p>Vs</p>
-				<span class="letter letter-D">D</span>
-			</div>
-
-			<div class="bullet">
-				<span id="bullet-1">&#8226;</span> 
-				<span id="bullet-2">&#8226;</span>
-			</div>
-		</div>	
 	</div>	
-
-	<div class="activity-side text-center">
-		<div class="heading-teams white-box">
-			<div class="green-table ">
-				<p>Table</p>
-			</div>
-			<div class="teams">
-				<p>Teams</p>
-			</div>	
+	<div class="caption">
+		<p>Next game</p>
+	</div>
+	<div class="white-box">	
+		<div class="score-stands">
+			<p>If score stands:</p>
 		</div>
-		<div class="caption table">
+
+		<div class="word">	
+			<span class="letter letter-C">C</span>
+			<p>Vs</p>
+			<span class="letter letter-D">D</span>
+		</div>
+
+		<div class="bullet">
+			<span id="bullet-1">&#8226;</span> 
+			<span id="bullet-2">&#8226;</span>
+		</div>
+	</div>	
+</div>	
+
+<div class="activity-side text-center">
+
+	<div class="heading-teams white-box">
+		<div class="green-table ">
 			<p>Table</p>
 		</div>
-		<div class="white-box">
-			<table class="table-condensed">
-				<tr>
-					<th></th>
-					<th></th>
-				    <th>P</th>
-				    <th>W</th>
-				    <th>D</th>
-				    <th>L</th>
-				    <th>PTS</th>
-				</tr>
-			  	<tr>
-			  		<td class="first-column">1</td>
-			   		<td><span class="letter letter-B">B</span></td>
-			    	<td>13</td>
-			    	<td>10</td> 
-			    	<td>1</td>
-			    	<td>2</td>
-			    	<td class="last-column">31</td>
-			  	</tr>
-			  	<tr>
-			  		<td class="first-column">2</td>
-			   		<td><span class="letter letter-A">A</span></td>
-			    	<td>11</td>
-			    	<td>5</td> 
-			    	<td>1</td>
-			    	<td>5</td>
-			    	<td class="last-column">16</td>
-			  	</tr>
-			  	<tr>
-			  		<td class="first-column">3</td>
-			   		<td><span class="letter letter-D">D</span></td>
-			    	<td>11</td>
-			    	<td>4</td> 
-			    	<td>0</td>
-			    	<td>7</td>
-			    	<td class="last-column">12</td>
-			  	</tr>
-			  	<tr>
-			  		<td class="first-column">4</td>
-			   		<td><span class="letter letter-C">C</span></td>
-			    	<td>9</td>
-			    	<td>2</td> 
-			    	<td>0</td>
-			    	<td>7</td>
-			    	<td class="last-column">6</td>
-			  	</tr>
-			</table>
-		</div>
-		<div class="caption">
-			<p>Activity</p>
-		</div>
+		<div class="teams">
+			<p>Teams</p>
+		</div>	
+	</div>
 
-		<div class="details white-box">
+	<div class="caption table">
+		<p>Table</p>
+	</div>
+
+	<div class="white-box">
+		<table class="table-condensed">
+			<tr>
+				<th></th>
+				<th></th>
+			    <th>P</th>
+			    <th>W</th>
+			    <th>D</th>
+			    <th>L</th>
+			    <th>PTS</th>
+			</tr>
+		  	<tr>
+		  		<td class="first-column">1</td>
+		   		<td><span class="letter letter-B">B</span></td>
+		    	<td>13</td>
+		    	<td>10</td> 
+		    	<td>1</td>
+		    	<td>2</td>
+		    	<td class="last-column">31</td>
+		  	</tr>
+		  	<tr>
+		  		<td class="first-column">2</td>
+		   		<td><span class="letter letter-A">A</span></td>
+		    	<td>11</td>
+		    	<td>5</td> 
+		    	<td>1</td>
+		    	<td>5</td>
+		    	<td class="last-column">16</td>
+		  	</tr>
+		  	<tr>
+		  		<td class="first-column">3</td>
+		   		<td><span class="letter letter-D">D</span></td>
+		    	<td>11</td>
+		    	<td>4</td> 
+		    	<td>0</td>
+		    	<td>7</td>
+		    	<td class="last-column">12</td>
+		  	</tr>
+		  	<tr>
+		  		<td class="first-column">4</td>
+		   		<td><span class="letter letter-C">C</span></td>
+		    	<td>9</td>
+		    	<td>2</td> 
+		    	<td>0</td>
+		    	<td>7</td>
+		    	<td class="last-column">6</td>
+		  	</tr>
+		</table>
+	</div>
+	<div class="caption">
+		<p>Activity</p>
+	</div>
+
+	<div class="details white-box">
 
 		<div class="row-score">
 			<div class="right-col">
@@ -166,64 +170,67 @@
 			</div>
 		</div>	
 
-		<div class="row-score">
-			<div class="right-col">
-				<span class="game-number">Game 20</span>
-			</div>	
-			<div class="middle-col">	
-				<span class="letter letter-B">B</span>
-				<span class="score"><span class="green">1</span> - <span>0</span></span>
-				<span class="letter letter-D">D</span>
-			</div>	
-			<div class="time-meters left-col">
-				<span>13m</span>
-			</div>
-		</div>
+		<div class="row-score-expanded">
 
-		<div class=" row-score">
-			<div class="time-meters right-col">
-				<span>0:56</span>
+			<div class="row-score-detail-main">
+				<div class="right-col">
+					<span class="game-number">Game 20</span>
+				</div>	
+				<div class="middle-col">	
+					<span class="letter letter-B">B</span>
+					<span class="score"><span class="green">1</span> - <span>0</span></span>
+					<span class="letter letter-D">D</span>
+				</div>	
+				<div class="time-meters left-col">
+					<span>13m</span>
+				</div>
 			</div>
 
-			<div class="middle-col">	
-				<span class="score">0 - 1</span>
-				<br>	
-				<span class="added">Added by:</span> 
-				<span class="name">Tom Brady</span>
-			</div>	
-			<div class="left-col">
-			</div>
-		</div>
+			<div class="row-score-detail">
+				<div class="time-meters right-col">
+					<span>0:56</span>
+				</div>
 
-		<div class=" row-score">
-			<div class="time-meters right-col">
-				<span>3:15</span>
+				<div class="middle-col">	
+					<span class="score">0 - 1</span>
+					<br>	
+					<span class="added">Added by:</span> 
+					<span class="name">Tom Brady</span>
+				</div>	
+				<div class="left-col">
+				</div>
 			</div>
-			<div class="middle-col">	
-				<span class="score">1 - 1</span>
-				<br>	
-				<span class="added">Added by:</span> 
-				<span class="name">Joan Stephenson</span>
-			</div>
-			<div class="left-col">
-			</div>		
-		</div>
+			<div class="row-score-detail-divider"><div></div></div>
 
-		
+			<div class=" row-score-detail">
+				<div class="time-meters right-col">
+					<span>3:15</span>
+				</div>
+				<div class="middle-col">	
+					<span class="score">1 - 1</span>
+					<br>	
+					<span class="added">Added by:</span> 
+					<span class="name">Joan Stephenson</span>
+				</div>
+				<div class="left-col">
+				</div>		
+			</div>
 
-		<div class=" row-score">
-			<div class="time-meters right-col">
-				<span>7:00</span>
+			<div class=" row-score-detail">
+				<div class="time-meters right-col">
+					<span>7:00</span>
+				</div>
+				<div class="middle-col">
+					<span class="score">2 - 1</span>
+					<br>	
+					<span class="added">Score confirmed by:</span>
+					<span class="name">Tom Brady</span>
+				</div>
+				<div class="time-meters full-time left-col">
+					<span>Full time</span>
+				</div>	
 			</div>
-			<div class="middle-col">
-				<span class="score">2 - 1</span>
-				<br>	
-				<span class="added">Score confirmed by:</span>
-				<span class="name">Tom Brady</span>
-			</div>
-			<div class="time-meters full-time left-col">
-				<span>Full time</span>
-			</div>	
+
 		</div>				
 		
 		<div class="row-score">	
@@ -239,10 +246,12 @@
 				<span>30m</span>
 			</div>	
 		</div>
-	</div>
 
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
 </body>
