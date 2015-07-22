@@ -122,6 +122,7 @@ navbar-brand img{
 	font-size: 70px;
 	font-family: 'AvenirNext-Regular';
 	margin: auto;
+	vertical-align: middle;
 }
 .score-side .score .number{
 	font-size: 100px;
