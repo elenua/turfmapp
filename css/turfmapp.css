@@ -347,8 +347,9 @@ navbar-brand img{
 	border-bottom: 1px #efefef solid;
 }
 
-/* Small devices (phones, less than 820px) */
+/* Small devices (phones, less than 410px) */
 @media screen and (max-width: 410px) {
+
  	.score-side .big-letter{
  		width: 70px;
 	}
@@ -429,9 +430,7 @@ navbar-brand img{
 	.activity-side .table-condensed .letter{
 		margin:0px 5px;
 	}
-	.activity-side .table-condensed th{
-		padding: 19px 17px 2px;
-	}
+
  }
  @media screen and (max-width: 815px) {
  	.score-side{
@@ -456,6 +455,10 @@ navbar-brand img{
 	}
 	.activity-side .details .row-score{		
 	height: 135px;
+	}
+	.activity-side .table-condensed th{
+		text-align: center;
+		padding: 2px;
 	}	
  }	
 
