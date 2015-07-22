@@ -68,8 +68,9 @@ navbar-brand img{
 	padding-bottom: 10px;
 	padding-right: 15px;
 }
-.score-side #challenge img .question{
-	padding-left: 50px;
+.score-side #challenge img.question{
+	float: right;
+	margin-top: 30px;
 }
 .score-side #challenge p{
 	color: #fff;
@@ -294,7 +295,7 @@ navbar-brand img{
 
 .activity-side .details .row-score-expanded .row-score-detail-main{		
 	display: table-row;
-	height: 120px;
+	height: 100px;
 }
 
 .row-score-detail{
@@ -376,8 +377,10 @@ navbar-brand img{
 		display: inline-block;
 	}
 	.activity-side .details .row-score-expanded .row-score-detail-main{		
-		display: inline-block;	
+		display: inline-block;
+		height: 130px;
 	}
+
 	.activity-side .details .row-score-detail-main >div{		
 		margin: 10px;   
 	}
@@ -411,6 +414,10 @@ navbar-brand img{
 	.activity-side .details .row-score-detail .left-col{		
 		display: block;
 		border-bottom: 1px #efefef solid;
+	}
+
+	.activity-side .details .row-score-expanded :last-child .right-col{
+		border-bottom: none;
 	}
 
 	.score-side .score .number span{
